@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: rgb(131, 95, 72);
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: burlywood;
+    color: #fff;
+}
+.active{
+    background-color: burlywood;
+    color: #fff;  
+}
+.banner{
+    height: 50vh;
+    border: 1px solid;
+    background-image: url(../css/img/banner);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.banner:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section{
+    padding: 50px 0;
+}
